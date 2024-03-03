@@ -31,13 +31,13 @@
   please disable this when using Compact Mode addon */
 /* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/vscode-user-area.css"); */
 
-/* Syntax Highlight, get hljs styling with Tokyo Night scheme (Enabled by default) */
-@import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/syntax-highlight.css");
+/* Syntax Highlight, get hljs styling with Tokyo Night scheme (Disabled by default) */
+/* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/syntax-highlight.css");  */
 
 /* Username Background, get colorful background behind username on chat, works best with Monospace addon. (Disabled by default) */
 /* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/username-background.css"); */
 
-/* Mac Like Titlebar (windows only), get mac style titlebar on windows client (Enabled by default) */
+/* Mac Like Titlebar (windows only), get mac style titlebar on windows client (Disabled by default) */
 /* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/mac-titlebar.css"); */
 
 /* Compact Mode, hide some UI part on specific windows size,
@@ -47,16 +47,11 @@
 /* Monospace, use monospaced font (JetBrains Mono) instead the default one (Disabled by default) */
 /* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/monospace-fonts.css"); */
 
+/* Ligature Monosapce, use monospaced font (FiraCode Nerd) instead the default one (Disabled by default) */
+/* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/firacode-font.css"); */
+
 /* Square Avatar, get square avatar on chat memberlist and user area (Disabled by default) */
 /* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/square-avatar.css"); */
-
-
-/* Edit font for all */
-*
-{
-  font-size: 99.6% !important;
-  font-family: "FiraCode Nerd Font" !important;
-}
 
 
 /* ==== Discord Variables ==== */

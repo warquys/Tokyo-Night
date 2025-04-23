@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'FiraCode Nerd Font';
+    src: local('FiraCode Nerd Font');
+}
+
+:root {
+    --font-primary: 'FiraCode Nerd Font';
+    --font-code: 'FiraCode Nerd Font';
+    --font-display: var(--font-primary);
+}
+
+/* Settings Menu Title */
+.bd-settings-title,
+.customScroller_f72801 div h1,
+.contentColumnDefault_c66386 .marginBottom4__12b08 h1,
+.sectionTitle-3j2YI1 h1,
+.alignCenter__84269 h1 {
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Server Name */
+.header__104ca .name_c08dbc {
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Category Name */
+.name__590d6.container-q97qHp .overflow__87fe8 {
+    font-weight: 600;
+}
+
+/* Username on userpopout */
+.bot__7a1c9, .username__2cac3,
+.nameTag-2Nlmsy .discriminator-1bqsd3,
+.headerText-1-WmDq .nickname-t08Mck,
+.headerTagUsernameNoNickname-1TjuLc,
+.headerTagDiscriminatorNoNickname-dfcvHa {
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Link text */
+.anchor-1MIwyf {
+    font-style: italic;
+}
+
+/* Timestamp */
+.compact__54ecc .timestamp_cdbd93,
+.cozy_f5c119 .timestamp_cdbd93 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 0.7rem;
+}

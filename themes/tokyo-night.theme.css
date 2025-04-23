@@ -34,6 +34,7 @@
 /* Syntax Highlight, get hljs styling with Tokyo Night scheme (Disabled by default) */
 /* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/syntax-highlight.css");  */
 
+
 /* Username Background, get colorful background behind username on chat, works best with Monospace addon. (Disabled by default) */
 /* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/username-background.css"); */
 
@@ -50,6 +51,13 @@
 /* Square Avatar, get square avatar on chat memberlist and user area (Disabled by default) */
 /* @import url("https://cdn.githubraw.com/warquys/Tokyo-Night/main/src/addons/square-avatar.css"); */
 
+
+/* Edit font for all */
+*
+{
+  font-size: 99.6% !important;
+  font-family: "FiraCode Nerd Font" !important;
+}
 
 /* ==== Discord Variables ==== */
 .theme-dark { /* Dark Mode */
@@ -92,7 +100,7 @@
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: #2b2b46af;
   --scrollbar-auto-thumb-hover: #27273d85;
-  --scrollba-auto-track: transparent;
+  --scrollbar-auto-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
 
@@ -107,7 +115,6 @@
   --close-button-color: #e92a2ade;
   --maximize-button-color: #f7bc1bde;
   --minimize-button-color: #12db33de;
- 
 }
 
 .theme-light { /* Light Mode */

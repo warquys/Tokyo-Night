@@ -23,7 +23,7 @@
     --interactive-normal: #5f647e;
     --interactive-hover: #a2a6c2;
     --interactive-active: #b5bad1;
-    --interactive-muted: #55576b; 
+    --interactive-muted: #55576b;
     --channels-default: var(--text-muted);
     --background-primary: #1a1b26;
     --background-secondary: #171722;
@@ -105,22 +105,22 @@
     --channeltextarea-background: var(--background-secondary);
     --input-background: var(--background-secondary);
   }
-  
+
   /* ~~~~		  		General							~~~~ */
   .theme-dark ::selection {
     background-color: #515c7e40;
     color: #a9b1d6;
   }
   .theme-light ::selection {
-    background-color: #00000069;
+    background-color: #fafbff55;
     color: #4c505e;
   }
-  
+
   /* Input Box Placeholder Text */
   ::placeholder {
     color: var(--text-muted) !important;
   }
-  
+
   /* Scrollbar */
   .auto-2K3UW5::-webkit-scrollbar-thumb,
   .auto-2K3UW5::-webkit-scrollbar-track {
@@ -233,13 +233,13 @@
     border-radius: 20px;
     padding: 0;
   }
-  
+
   /* Top Bar */
   #app-mount .children__32014 > .iconWrapper_af9215 svg,
   #app-mount .base-21yXnu {
     color: var(--header-primary);
   }
-  
+
   /* Voice Call Tab */
   .callContainer_cbde45  {
     background-color: var(--background-floating) !important;
@@ -254,13 +254,13 @@
     color: #fff;
     background-color: var(--accent-color);
   }
-  
+
   /* Thread Spine */
   .hasThread__58ee2:after {
     border-left: 2px solid var(--interactive-normal) !important;
     border-bottom: 2px solid var(--interactive-normal) !important;
   }
-  
+
   /* Fix some svg color */
   svg[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
     fill: var(--text-positive);
@@ -271,9 +271,15 @@
   svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
     fill: var(--text-danger);
   }
-  
+
+
+  /* Bot Tag, TODO: check if it work */
+  .botTagRegular_a02df3 {
+    background: var(--accent-color) !important;
+  }
+
   /* ~~~~		  		Messages							~~~~ */
-  
+
   /* Quotes */
   .blockquoteContainer_f24d1f {
     padding: 2px 0 2px 0;
@@ -294,7 +300,7 @@
   .inlineCode-2auMQi {
     background-color: var(--background-secondary-alt);
   }
-  
+
   /* Reply text */
   .repliedMessage_e2bf4a .repliedTextPreview__90311 {
     color: var(--text-normal);
@@ -303,7 +309,7 @@
   .repliedMessage_e2bf4a .repliedTextPreview__90311:hover {
     opacity: 1;
   }
-  
+
   /* Embeds */
   .wrapperAudio__555ce {
     width: auto !important;
@@ -314,7 +320,7 @@
     border-left: 4px solid var(--accent-color);
     box-shadow: var(--elevation-high);
   }
-  
+
   /* Nitro Gift */
   .tile_ebc93b {
     background-color: var(--background-secondary) !important;
@@ -322,20 +328,20 @@
   .lookFilled-1GseHa.colorPrimary-2AuQVo:disabled {
     background-color: var(--background-primary) !important;
   }
-  
+
   /* Mentions */
   .replying_d7b6ad::before,
   .mentioned__58017::before {
     background-color: var(--border-mentioned);
   }
-  
+
   /* Quick Button */
   .wrapper_c727b6 {
     background-color: var(--background-secondary);
   }
-  
+
   /* ~~~~		  		Popouts							~~~~ */
-  
+
   /* User Popouts */
   .userTagUsernameNoNickname-2e_xaO {
     color: var(--text-normal);
@@ -351,13 +357,13 @@
   .messageInputContainer-2rGDH8 {
     border: 1px solid var(--background-tertiary);
   }
-  
+
   /* Add Role Popouts */
   .container-2O1UgZ {
     background-color: var(--background-floating);
     border-color: var(--background-secondary-alt);
   }
-  
+
   /* Search Popouts */
   .container_d6dad3 {
     background-color: var(--background-floating) !important;
@@ -399,7 +405,7 @@
   .resultsGroup_ea9b64 .searchLearnMore-7__o_n a {
     color: var(--channels-default) !important;
   }
-  
+
   /* Calendar */
   .calendarPicker__5c474 .react-datepicker__navigation.react-datepicker__navigation--previous {
     border: none !important;
@@ -429,7 +435,7 @@
   .calendarPicker__5c474 .react-datepicker {
     background-color: var(--background-floating) !important;
   }
-  
+
   /* Stream Preview Popouts */
   .protip-13raHg {
     display: none;
@@ -440,7 +446,7 @@
   .previewContainer-12U1H1 {
     background-color: var(--background-secondary) !important;
   }
-  
+
   /* Emoji Popouts */
   .autocomplete_df266d {
     background-color: var(--background-floating) !important;
@@ -448,7 +454,7 @@
   .selected-3H3-RC {
     background-color: var(--background-primary) !important;
   }
-  
+
   /* Slash Command Popouts */
   .categoryHeader_f97a5f {
     background-color: var(--background-floating) !important;
@@ -457,9 +463,9 @@
   .pill-1HLSrc {
     background-color: var(--background-primary) !important;
   }
-  
+
   /* ~~~~		  		Sidebar							~~~~ */
-  
+
   /* Server List */
   .folder__17546,
   .expandedFolderBackground__1bec6,
@@ -470,18 +476,18 @@
   .folder__17546:hover {
     background-color: var(--folder-color-light);
   }
-  
+
   .folder__17546 > .folderIconWrapper__72239 > .expandedFolderIconWrapper__458cf > svg[style="color: rgb(88, 101, 242);"] {
     color: var(--accent-color) !important;
   }
-  
+
   .numberBadge__50328 {
     background-color: var(--accent-color) !important;
   }
   .item_f9d377 {
     background-color: var(--interactive-normal);
   }
-  
+
   /* Add Server Button */
   .circleIconButton_d8df29 {
     color: var(--interactive-normal) !important;
@@ -491,7 +497,7 @@
     color: var(--interactive-hover) !important;
     background-color: var(--background-primary) !important;
   }
-  
+
   /* Channel List */
   .children__32014:after {
     background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-tertiary)) !important;
@@ -590,7 +596,7 @@
   .markValue-2U_-UG {
     color: var(--interactive-muted);
   }
-  
+
   /* Buttons Color */
   .bar-1Bhnl9 {
     background: var(--background-secondary) !important;

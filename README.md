@@ -60,3 +60,4 @@ https://raw.githubusercontent.com/warquys/Tokyo-Night/main/themes/tokyo-night.th
 - [GooseNest](https://github.com/Goose-Nest) for [Revert Rebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
 - [Dyzean](https://github.com/Dyzean) the original autor of the theme !
 - Also Huge thanks for BD & Powercord servers for snippets and help!
+- [thaYt](https://github.com/thaYt) I merge her/him [patch](https://github.com/thaYt/Tokyo-Night-fix) for updating on last discord version

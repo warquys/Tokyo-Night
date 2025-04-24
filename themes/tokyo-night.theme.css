@@ -34,7 +34,6 @@
 /* Syntax Highlight, get hljs styling with Tokyo Night scheme (Disabled by default) */
 /* @import url("https://raw.githubusercontent.com/warquys/Tokyo-Night/main/src/addons/syntax-highlight.css");  */
 
-
 /* Username Background, get colorful background behind username on chat, works best with Monospace addon. (Disabled by default) */
 /* @import url("https://raw.githubusercontent.com/warquys/Tokyo-Night/main/src/addons/username-background.css"); */
 
@@ -47,10 +46,11 @@
 
 /* Monospace, use monospaced font (JetBrains Mono) instead the default one (Disabled by default) */
 /* @import url("https://raw.githubusercontent.com/warquys/Tokyo-Night/main/src/addons/monospace-fonts.css"); */
+/* Monospace, use monospaced font (FiraCode) instead the default one (Disabled by default) */
+/* @import url("https://raw.githubusercontent.com/warquys/Tokyo-Night/main/src/addons/firacode-font.css"); */
 
 /* Square Avatar, get square avatar on chat memberlist and user area (Disabled by default) */
 /* @import url("https://raw.githubusercontent.com/warquys/Tokyo-Night/main/src/addons/square-avatar.css"); */
-
 
 /* Edit font for all */
 *
@@ -58,6 +58,7 @@
   font-size: 99.6% !important;
   font-family: "FiraCode Nerd Font" !important;
 }
+
 
 /* ==== Discord Variables ==== */
 .theme-dark { /* Dark Mode */
@@ -136,7 +137,7 @@
   --background-secondary: #d6d6d6;
   --background-secondary-alt: #ffffff;
   --background-tertiary: #f0efef;
-  --background-tertiary-alt: #858383;
+  --background-tertiary-alt: #e7e7e7;
   --background-accent: #82889c;
   --background-floating: #e9e9e9;
   --background-mentioned: #ccb7b7;

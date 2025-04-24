@@ -32,8 +32,9 @@ If it has stuff that's too hard to read or colors that you find more pleasing, m
 1. Go to user settings (CTRL + ,)
 2. Go to the "Vencord" category and select the "Themes" tab, then go to the "Online Themes" section.
 3. In the input field under "THEMES" paste the following URL.
+
 ```
-https://cdn.githubraw.com/warquys/Tokyo-Night/main/themes/tokyo-night.theme.css
+https://raw.githubusercontent.com/warquys/Tokyo-Night/main/themes/tokyo-night.theme.css
 ```
 
 ##### Local Theme Method

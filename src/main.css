@@ -10,7 +10,7 @@
   --text-link: hsl(217, calc(var(--saturation-factor, 1)*40%), 56%) !important;
   --info-positive-background: hsla(89, calc(var(--saturation-factor, 1)*51%), 61%, 0.8) !important;
   --info-positive-foreground: var(--text-positive);
-  --info-warning-background: hsla(39, calc(var(--saturation-factor, 1)*66%), 64%, 0.8) !important;
+  --info-warning-background: hsla(39, calc(var(--saturation-factor, 1)*66%), 64%, 0.4) !important;
   --info-warning-foreground: var(--text-warning);
   --info-danger-background: hsla(349, calc(var(--saturation-factor, 1)*89%), 72%, 0.8) !important;
   --info-danger-foreground: var(--text-danger);
@@ -20,7 +20,7 @@
   --status-positive-background: var(--info-positive-background);
   --status-warning-background: var(--info-warning-background);
   --status-danger-background: var(--info-danger-background);
-  --interactive-normal: #5f647e;
+  --interactive-normal: #b2b4be;
   --interactive-hover: #a2a6c2;
   --interactive-active: #b5bad1;
   --interactive-muted: #55576b;
@@ -44,7 +44,7 @@
   --scrollbar-thin-thumb: transparent;
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: #2b2b46af;
-  --scrollbar-auto-thumb-hover: #27273d85;
+  --scrollbar-auto-thumb-hover: #ffffff85;
   --scrollbar-auto-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
@@ -62,7 +62,7 @@
   --text-danger: hsl(348, calc(var(--saturation-factor, 1)*35%), 31%);
   --info-positive-background: hsla(89, calc(var(--saturation-factor, 1)*32%), 28%, 0.8) !important;
   --info-positive-foreground: var(--text-positive);
-  --info-warning-background: hsla(36, calc(var(--saturation-factor, 1)*74%), 32%, 0.8) !important;
+  --info-warning-background: hsla(36, calc(var(--saturation-factor, 1)*74%), 32%, 0.4) !important;
   --info-warning-foreground: var(--text-warning);
   --info-danger-background: hsla(349, calc(var(--saturation-factor, 1)*35%), 31%, 0.8) !important;
   --info-danger-foreground: var(--text-danger);
@@ -308,10 +308,6 @@
 .button_c6e099 {
   color: #fff;
   background-color: var(--accent-color);
-}
-
-.childWrapperNoHoverBg__6e9f8 {
-  background-color: #f00;
 }
 
 /* Thread Spine */
